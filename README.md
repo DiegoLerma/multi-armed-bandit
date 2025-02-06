@@ -1,13 +1,13 @@
 # Optimización de Campaña de Marketing Online con el Bandido Multi-Brazo (Multi-Armed Bandit)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USUARIO/REPOSITORIO/blob/main/Optimizacion_Marketing_Online_Bandido_Multi_Brazo.ipynb)
+[![GitHub](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=github)](https://github.com/DiegoLerma/multi-armed-bandit.git)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <img src="https://static.vecteezy.com/system/resources/thumbnails/027/303/356/small_2x/digital-marketing-commerce-online-sale-concept-promotion-of-products-or-services-through-digital-channels-search-engine-social-media-email-website-digital-marketing-strategies-and-goals-seo-ppc-photo.jpg" alt="Marketing Online" width="600"/>
 
 ## Introducción
 
-Este proyecto aborda un problema clásico en la optimización de campañas de marketing online: **¿cómo identificar la mejor creatividad (imagen) para un anuncio, maximizando el número de clics?**  Para resolverlo, empleamos el algoritmo del **Bandido Multi-Brazo (Multi-Armed Bandit, MAB)**, una técnica de aprendizaje por refuerzo que equilibra la *exploración* de nuevas opciones y la *explotación* de las que ya han demostrado ser efectivas.
+Este proyecto aborda un problema clásico en la optimización de campañas de marketing online: **¿cómo identificar la mejor imagen para un anuncio, maximizando el número de clics?**  Para resolverlo, empleamos el algoritmo del **Bandido Multi-Brazo (Multi-Armed Bandit, MAB)**, una técnica de aprendizaje por refuerzo que equilibra la *exploración* de nuevas opciones y la *explotación* de las que ya han demostrado ser efectivas.
 
 Este enfoque es particularmente útil en entornos dinámicos, como la publicidad online, donde las preferencias de los usuarios pueden cambiar rápidamente.
 
@@ -40,8 +40,8 @@ Este notebook de Jupyter tiene como objetivo:
 
 1.  **Clonar el Repositorio:**
     ```bash
-    git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-    cd TU_REPOSITORIO
+    git clone https://github.com/DiegoLerma/multi-armed-bandit.git
+    cd multi-armed-bandit
     ```
 
 2.  **Crear un Entorno Virtual (Recomendado):**
@@ -59,7 +59,11 @@ Este notebook de Jupyter tiene como objetivo:
 
 4.  **Ejecutar el Notebook:**
     ```bash
-    jupyter notebook Optimizacion_Marketing_Online_Bandido_Multi_Brazo.ipynb
+    jupyter notebook multi-armed-bandit.ipynb
+    ```
+     o
+    ```bash
+     jupyter lab
     ```
 
     Esto abrirá el notebook en tu navegador web.  Puedes ejecutar las celdas de código de forma interactiva y observar los resultados.
